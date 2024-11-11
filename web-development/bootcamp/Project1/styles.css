@@ -1,0 +1,78 @@
+body{
+    font-family: "orbitron", sans-serif;
+    text-align: center;
+    background-color: #000000ea;
+    color: wheat;
+}
+
+.myPic{
+    width: 150px;
+    border-radius: 5px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#CJ, #BCA{
+    color: red;
+}
+
+#MAC{
+    color: green;
+}
+
+
+iframe{
+    border: none;
+}
+
+footer{
+    text-align: center;
+    color: aqua;
+    border: 1px ridge bisque;
+    padding: 15px;
+    background-color: #ffe4c446;
+}
+
+footer span{
+    margin: 10px 5px;
+    scale: 0.7;
+}
+
+#tesnic{
+    color: rgb(0, 0, 0);
+    scale: 1;
+}
+
+.hobbyDiv h2, .achievements h2, .project h2{
+    color: grey;
+}
+
+.hobbyItems, .achieveItems{
+    text-align: left;
+    padding-left: 5vw;
+    text-decoration: none;
+    list-style-type:square;
+    opacity: 0.7;
+}
+
+.achieveItems{
+    color: yellowgreen;
+    list-style-type:disc;
+}
+
+.project{
+    display: block !important;
+}
+
+.project a{
+    text-align: left;
+    display: block !important;
+    text-decoration: none;
+    color: aqua;
+
+    padding: 10px;
+}
+
+.project a:hover{
+    color: rgba(0, 255, 255, 0.579);
+}
