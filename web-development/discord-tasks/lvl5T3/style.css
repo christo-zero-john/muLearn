@@ -1,0 +1,146 @@
+body
+{
+  margin: 0;
+   font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Bookman Old Style',serif;
+   padding: 0;
+}
+
+.container
+{
+    display: flex;
+}
+
+.list-check
+{
+    text-align: center;
+    border: 1px solid rgb(0, 78, 138);
+}
+
+.list-check:hover
+{
+    background: beige;
+    background-color: #00ffe1;
+}
+
+.list-check:active {
+    background: rgb(4, 171, 132);
+    color: white;
+}
+
+.right-side
+{
+    display: flex;
+    width: 50%;
+}
+
+header
+{ 
+    
+    padding: 23px;
+    border-top: 4px solid rgb(0, 78, 138);
+    border-bottom: 4px solid rgb(0, 78, 138); 
+    text-align: center;
+    background-color: rgb(216, 235, 216);
+}
+
+h1, h2{
+    font-size: 2em;
+}
+
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+  color: rgb(209, 3, 255);
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+ 
+
+
+section
+{
+  padding: 20px;
+  width: 50%;
+}
+p{   
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-indent: 20px;
+}
+
+.anchor {
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  line-height: 4;
+  color: rgb(0, 78, 138);
+  margin: 10px;
+    
+}
+
+.anchor:link, .anchor:visited, .anchor:focus {
+    background: transparent;
+}
+
+.anchor:hover {
+  
+  text-decoration: none;
+  color: #000000;
+}
+
+aside,nav
+{
+  padding: 20px;
+  float: right;
+}
+
+aside
+{   float: right;
+    width: 80%;
+}
+
+nav
+{
+    width: 78%;
+}
+
+footer {
+    border-top: 4px solid rgb(0, 78, 138);
+    border-bottom: 4px solid rgb(0, 78, 138); 
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+footer:hover {
+    opacity: 0.8; 
+}
+
+.ext-link{
+    width: 10px;
+    height: 10px;
+}
+
+
+
+.cc a{
+  color: red;
+}
+
+nav ul li{
+  list-style: none;
+  margin:20px 0;
+  border-color: red !important;
+}
