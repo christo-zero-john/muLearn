@@ -1,5 +1,5 @@
 {
-  "name": "lvl4t5",
+  "name": "Simple todo react app by Christo John @tesnic.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "author": "Christo John 10.christojohn@gmail.com https://tesnic.vercel.app",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
