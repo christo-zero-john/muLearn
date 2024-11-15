@@ -1,9 +1,18 @@
 function AddItem({ list, setList }) {
   function AddNewItem() {
-    let item = document.getElementById("get-item").value;
+    class ListItem {
+      constructor(value) {
+        this.todo = value;
+        this.done = 0;
+        this.count = 0;
+      }
+    }
+
+    let item = new ListItem(document.getElementById("get-item").value);
+
     console.log("Adding New Item to list: ", item);
-    if (item.length <= 10) {
-      window.alert("Item should contain atleast 10 characters");
+    if (item.todo.length <= 3) {
+      window.alert("Item should contain atleast 3 characters");
     } else {
       setList([...list, item]);
     }
@@ -13,12 +22,12 @@ function AddItem({ list, setList }) {
     <div className="p-3">
       <input
         type="text"
-        className=""
+        className="bg-dark text-light border-0 border-bottom"
         id="get-item"
         placeholder="Enter todo item"
       />
       <button
-        className="m-2 p-1 px-3 btn btn-outline-success"
+        className="m-2 p-0 fs-1 px-3 btn btn-outline-success"
         onClick={AddNewItem}
       >
         +
