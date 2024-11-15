@@ -5,3 +5,7 @@
 ### Features
 
 - Create new todo items
+- Delete Todo items
+- Mark As DOne
+- Redo Completed Items
+- Local Storage for todo items so that tehy can be saved forever
